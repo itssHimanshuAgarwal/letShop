@@ -21,7 +21,9 @@
     "express": "^4.16.4",
     "express-sslify": "^1.2.0",
     "nodemon": "^2.0.4",
-    "stripe": "6.28.0"
+    "react-dark-mode-toggle": "0.0.9",
+    "stripe": "6.28.0",
+    "use-dark-mode": "^2.3.1"
   },
   "devDependencies": {
     "concurrently": "^4.0.1"
