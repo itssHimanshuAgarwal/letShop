@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import { PersistGate } from 'redux-persist/integration/react';
-
+import 'react-mdl/extra/material.css';
+import 'react-mdl/extra/material.js';
 import { store, persistor } from './redux/store';
 import * as serviceWorker from './serviceWorker';
 
@@ -18,7 +19,7 @@ ReactDOM.render(
         <App />
       </PersistGate>
     </BrowserRouter>
-    ,
+
   </Provider>,
   document.getElementById('root')
 );
